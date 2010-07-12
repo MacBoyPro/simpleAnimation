@@ -1,0 +1,16 @@
+sdk: "/Users/macboypro/src/rhodes"
+sdkversion: 2.0.0
+name: Tester
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+wmsdk: "Windows Mobile 6 Professional SDK (ARMV4I)"
+applog: rholog.txt
+iphone:
+  configuration: Debug
+  sdk: iphonesimulator3.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+extensions: ["extension-name-here", "second-extension-name"]
